@@ -1,12 +1,12 @@
 import { gql, useQuery } from '@apollo/client';
 
 const profileQuery = gql`
-  query {
+  query($first: Int!) {
     viewer {
       login
       avatarUrl
       company
-      repositories(first: 5) {
+      repositories(first: $first) {
         nodes {
           name
           createdAt
@@ -20,7 +20,11 @@ const profileQuery = gql`
 `;
 
 export default function App() {
-  const { loading, error, data } = useQuery(profileQuery);
+  const limit = parseInt(window.location.search.replace('?limit=', ''));
+  const { loading, error, data } = useQuery(profileQuery, {
+    variables: { first: limit },
+  });
+
   if (loading) return 'Loading ...';
   if (error) return 'Something went wrong!';
 
