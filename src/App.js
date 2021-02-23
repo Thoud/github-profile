@@ -22,7 +22,7 @@ const profileQuery = gql`
 export default function App() {
   const limit = parseInt(window.location.search.replace('?limit=', ''));
   const { loading, error, data } = useQuery(profileQuery, {
-    variables: { first: limit ?? 5 },
+    variables: { first: limit || 5 },
   });
 
   if (loading) return 'Loading ...';
