@@ -2245,10 +2245,10 @@
   resolved "https://registry.yarnpkg.com/@ungap/global-this/-/global-this-0.4.4.tgz#8a1b2cfcd3e26e079a847daba879308c924dd695"
   integrity sha512-mHkm6FvepJECMNthFuIgpAEFmPOk71UyXuIxYfjytvFTnSDBIz7jmViO+LfHI/AjrazWije0PnSP3+/NlwzqtA==
 
-"@upleveled/eslint-config-upleveled@1.7.3":
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-1.7.3.tgz#2f922e519c50f25f24811dad3ba8d9ef8044af67"
-  integrity sha512-xzd+cZSC3LmuFjBzaVdBXNtPPptAe47OJAbjYD9Ia0KGLFEvbD3Hach/ujW9jzedv/Lc1TK/TpqaY8W/sTemww==
+"@upleveled/eslint-config-upleveled@1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-1.8.1.tgz#e85a7a0b2520f1e4428881ac52c5120e8ea91da0"
+  integrity sha512-QEYnc0bCqZ0m98p6MkPddNI+17ICl3Z8YWQYOyXFTyeGSqDCbf4L4ldG7Xb2mJgnqquNfskky99mFVMYMAEoDw==
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
